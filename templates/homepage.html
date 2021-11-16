@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+
+{% block head %}
+<title>Tic Tac Toe</title>
+{% endblock %}
+
+
+{% block body %}
+<body class="body">
+    <div class="top_bar">
+        <h1 class="topbarheading">Tic Tac Toe</h1>
+        <p class="topbartext">Except only the advertisement because ¯\_(ツ)_/¯.</p>
+	    <img src="https://i.stack.imgur.com/1Pzpe.png" alt="Tic tac toe board" class="topbarimage">
+    </div>
+    <div>
+        <h1 class="heading1">Do you want to play some <i>Tic Tac Toe</i>?.</h1>
+        <img class="parrot1" src="https://cultofthepartyparrot.com/parrots/hd/parrot.gif">
+        <img class="parrot2" src="https://cultofthepartyparrot.com/parrots/hd/reverseparrot.gif">
+        <img class="arrow1 arrow" src="https://i.ibb.co/0fQ39sT/output-onlinegiftools.gif">
+        <img class="arrow2 arrow" src="https://i.ibb.co/0fQ39sT/output-onlinegiftools.gif">
+    </div>
+    <div {outline-color:"blue"}>
+        <form action="/game">
+            <input type="submit" value="Click me!" class="butt" onclick="document.getElementById('changeWidth').style='width:200px'">
+        </form>
+    </div>
+    <!--
+    <div>  Perhaps I will need this later?
+        <form action="">
+            <input type="submit" value="This one leads to the testing document..." class="butt2" onclick="document.getElementById('changeWidth').style='width:200px'">
+        </form>
+    </div
+    -->
+</body>
+{% endblock %}

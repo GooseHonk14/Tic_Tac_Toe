@@ -1,0 +1,143 @@
+.button{
+    cursor: pointer;
+    background-color: Transparent;
+    padding: 50px 50px;
+    border: none;
+  }
+  .button1{
+    transform: translate(-360%, -305%);
+  }
+  .button:hover{
+    background-color: #cfcfcf;
+    color: gray;
+  }
+  .button2 {
+    transform: translate(-337%, -305%);
+  }
+  .button3 {
+    transform: translate(-314%, -305%);
+  }
+  .button4 {
+     transform: translate(-670%, -180%);
+  }
+  .button5 {
+     transform: translate(-649%, -180%);
+  }
+  .button6 {
+    transform: translate(-628%, -180%);
+  }
+  .button7 {
+    transform: translate(-982%, -55%)
+  }
+  .button8 {
+    transform: translate(-961%, -55%)
+  }
+  .button9 {
+    transform: translate(-940%, -55%)
+  }
+  .body {
+    background-image: url(https://media.istockphoto.com/photos/dark-black-and-blue-grungy-wall-background-for-display-or-montage-of-picture-id1150477705?k=20&m=1150477705&s=612x612&w=0&h=Yrqw1w6bEJ40kZFTSovkLtu4VE52zLgl-n6AE1t2BuM=);
+    color:white;
+    background-size: cover;
+}
+.heading1 {
+    text-align:center;
+    background-color:green;
+    color:black;
+    padding:12px;
+    border:15px solid black;
+    margin:90px;
+    font-family:Futura;
+     }
+.butt {
+    cursor:pointer;
+    position:relative;
+    left:47%;
+    top:-65px;
+    background-color:#00ff00;
+    color:white;
+    font-size:150%;
+    outline-color:red;
+    padding:10px;
+    font-family:Geneva;
+}
+.butt2 {
+    cursor:pointer;
+    position:relative;
+    left:12px;
+    top:0px;
+    background-color:#8637a6;
+    color:white;
+    font-size:70%;
+    outline-color:red;
+    padding:10px;
+    font-family:Geneva;
+}
+.top_bar {
+    width:999999px;
+    height:90px;
+    background-color:orange;
+    text-align:left;
+    padding:15px;
+    margin:0px;
+    position:relative;
+    left:-10px;
+    top:-10px;
+}
+.topbarheading {
+    color:white;
+    position:relative;
+    left:10px;
+    top:10px;
+    font-size:50px;
+    margin:0px;
+    font-family: "Copperplate";
+}
+.topbartext {
+    font-family: Copperplate;
+    font-size:14px;
+    color:white;
+    position:relative;
+    left:13px;
+    top:-5px;
+}
+.topbarimage {
+    width:90px;
+    height:90px;
+    position:relative;
+    top:-105px;
+    left:1250px;
+}
+.parrot1 {
+    position:relative;
+    left:180px;
+    width:200px;
+    height:200px;
+}
+.parrot2 {
+    position:relative;
+    left:865px;
+    width:200px;
+    height:200px;
+}
+.arrow1 {
+    transform: scaleX(-1);
+    position:relative;
+
+}
+.arrow2 {
+    position:relative;
+    left:375px;
+    
+}
+.arrow  {
+    position:relative;
+    top:35px;
+    width:120px;
+    height:144.72px;
+}
+.game_board {
+  position:relative;
+  top:90px;
+  left:35%;
+}
