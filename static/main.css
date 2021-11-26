@@ -1,8 +1,9 @@
 .button{
     cursor: pointer;
-    background-color: Transparent;
+    background-color: red;
     padding: 50px 50px;
     border: none;
+    transform: translate(-50%, -50%)
   }
   .button1{
     transform: translate(-360%, -305%);

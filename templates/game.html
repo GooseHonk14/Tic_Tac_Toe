@@ -6,15 +6,17 @@
 
 {% block body %}
 <div class="game_board">
-    <img src="https://i.stack.imgur.com/1Pzpe.png" alt="Tic tac toe board">
-    <button class="button button1"></button>
-    <button class="button button2"></button>
-    <button class="button button3"></button>
-    <button class="button button4"></button>
-    <button class="button button5"></button>
-    <button class="button button6"></button>
-    <button class="button button7"></button>
-    <button class="button button8"></button>
-    <button class="button button9"></button>
+    <form method="POST">
+        <img src="https://i.stack.imgur.com/1Pzpe.png" alt="Tic tac toe board">
+        <input type="submit" class="button button1" action="/game/update/1"></button>
+        <input type="submit" class="button button2" action="/game/update/2"></button>
+        <input type="submit" class="button button3" action="/game/update/3"></button>
+        <input type="submit" class="button button4" action="/game/update/4"></button>
+        <input type="submit" class="button button5" action="/game/update/5"></button>
+        <input type="submit" class="button button6" action="/game/update/6"></button>
+        <input type="submit" class="button button7" action="/game/update/7"></button>
+        <input type="submit" class="button button8" action="/game/update/8"></button>
+        <input type="submit" class="button button9" action="/game/update/9"></button>
+    </form>
 </div>
 {% endblock %}
