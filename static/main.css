@@ -1,40 +1,42 @@
 .button{
     cursor: pointer;
-    background-color: red;
-    padding: 50px 50px;
+    background-color: white;
+    padding: 45px 45px;
     border: none;
-    transform: translate(-50%, -50%)
-  }
-  .button1{
-    transform: translate(-360%, -305%);
+    display:butt;
+    color:white;
   }
   .button:hover{
     background-color: #cfcfcf;
-    color: gray;
+    color: #cfcfcf;
+    
+  }
+  .button1{
+    transform: translate(-365%, -285%);
   }
   .button2 {
-    transform: translate(-337%, -305%);
+    transform: translate(-343%, -285%);
   }
   .button3 {
-    transform: translate(-314%, -305%);
+    transform: translate(-322%, -285%);
   }
   .button4 {
-     transform: translate(-670%, -180%);
+     transform: translate(-677.5%, -167%);   /*(-677.5, -167%)*/
   }
   .button5 {
-     transform: translate(-649%, -180%);
+     transform: translate(-655%, -167%);  
   }
   .button6 {
-    transform: translate(-628%, -180%);
+    transform: translate(-634%, -167%); /*(-634%, -167%%)*/
   }
   .button7 {
-    transform: translate(-982%, -55%)
+    transform: translate(-990%, -50%); /*(-990%, -50%)*/
   }
   .button8 {
-    transform: translate(-961%, -55%)
+    transform: translate(-967%, -50%); 
   }
   .button9 {
-    transform: translate(-940%, -55%)
+    transform: translate(-946%, -50%) /*(-946%, -50%)*/;
   }
   .body {
     background-image: url(https://media.istockphoto.com/photos/dark-black-and-blue-grungy-wall-background-for-display-or-montage-of-picture-id1150477705?k=20&m=1150477705&s=612x612&w=0&h=Yrqw1w6bEJ40kZFTSovkLtu4VE52zLgl-n6AE1t2BuM=);
@@ -140,5 +142,5 @@
 .game_board {
   position:relative;
   top:90px;
-  left:35%;
+  left:500px;
 }
