@@ -8,7 +8,11 @@
 <div class="game_board">
     <form method="POST">
         <img src="https://i.stack.imgur.com/1Pzpe.png" alt="Tic tac toe board">
-        <input type="submit" class="button button1" name="button" value="1"></input>
+        {% if board[0][0] == blank %}
+            <input type="submit" class="button button1" name="button" value="1"></input>
+        {% else %}
+            <p>Hola</p>
+        {{% endif %}}
         <input type="submit" class="button button2" name="button" value="2"></input>
         <input type="submit" class="button button3" name="button" value="3"></input>
         <input type="submit" class="button button4" name="button" value="4"></input>
