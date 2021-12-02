@@ -11,8 +11,8 @@
         {% if board[0][0] == blank %}
             <input type="submit" class="button button1" name="button" value="1"></input>
         {% else %}
-            <p>Hola</p>
-        {{% endif %}}
+            <input class="kys">fdsa</input>
+        {% endif %}
         <input type="submit" class="button button2" name="button" value="2"></input>
         <input type="submit" class="button button3" name="button" value="3"></input>
         <input type="submit" class="button button4" name="button" value="4"></input>
@@ -23,4 +23,10 @@
         <input type="submit" class="button button9" name="button" value="9"></input>
     </form>
 </div>
+<div class="reset_button">
+    <form method="POST">
+        <input type="submit" name="reset" value="Reset"></input>
+    </form>
+</div>
+
 {% endblock %}

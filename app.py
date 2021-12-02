@@ -35,8 +35,7 @@ def game():
             board[2][2] = x
         else:
             return "Something went wrong"
-    else:
-        return render_template('game.html', board = board)
+    return render_template('game.html', board=board, blank=blank), board
 
 
 
